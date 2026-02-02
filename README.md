@@ -33,23 +33,25 @@ timberlovingcare/
 ## Prerequisites
 
 - [Hugo Extended](https://gohugo.io/installation/) (v0.112.0(?) or higher, working on v0.155.0)
-- Hugo Apt repo; `deb [arch=amd64 signed-by=/etc/apt/keyrings/hugo.gpg] https://hugo-apt.8hob.io latest main`
+- Hugo Apt repo; ```deb [arch=amd64 signed-by=/etc/apt/keyrings/hugo.gpg] https://hugo-apt.8hob.io latest main```
 - [Node.js](https://nodejs.org/) (v16 or higher, currently on Debian 12, w/ node.js v18.20.4)
 - npm or yarn
 
 ## Setup
 
 1. Install Node dependencies:
+
 ```zsh
 npm install
 ```
 
-2. Run the development server:
+1. Run the development server:
+
 ```zsh
 hugo server -D
 ```
 
-3. Visit `http://localhost:1313` in your browser
+1. Visit `http://localhost:1313` in your browser
 
 ## Build for Production
 
@@ -62,6 +64,7 @@ When the Hugo server runs it will place production files that it generates, in t
 ## Customization
 
 ### Colors
+
 Edit the color scheme in `tailwind.config.js` and `themes/tailbliss/assets/css/main.css`:
 
 ```css
@@ -73,6 +76,7 @@ Edit the color scheme in `tailwind.config.js` and `themes/tailbliss/assets/css/m
 ```
 
 ### Navigation
+
 Update menu items in `hugo.toml`:
 
 ```toml
@@ -83,12 +87,15 @@ Update menu items in `hugo.toml`:
 ```
 
 ### Images
+
 Replace placeholder images in the gallery by:
+
 1. Adding images to `static/images/gallery/`
 2. Updating the gallery template at `themes/tailbliss/layouts/gallery/single.html`
 3. Replace the placeholder `<div>` elements with `<img>` tags
 
 ### Content
+
 - Home page: Edit `content/_index.md` and modify `themes/tailbliss/layouts/index.html`
 - Gallery page: Edit `content/gallery.md` and modify `themes/tailbliss/layouts/gallery/single.html`
 
@@ -111,13 +118,14 @@ Replace placeholder images in the gallery by:
 ## Adding New Pages
 
 1. Create a new markdown file in `content/`:
+
 ```zsh
 hugo new about.md
 ```
 
-2. Create a corresponding layout in `themes/tailbliss/layouts/` if needed
+1. Create a corresponding layout in `themes/tailbliss/layouts/` if needed
 
-3. Add to navigation menu in `hugo.toml`
+2. Add to navigation menu in `hugo.toml`
 
 ## Support
 
