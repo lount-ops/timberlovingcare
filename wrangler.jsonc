@@ -1,5 +1,5 @@
 {
-"name": "worker-name",
+"name": "timberlovingcare",
 "compatibility_date": "2026-02-02",
-"main": "src/index.ts"
+"main": "index.ts"
 }
