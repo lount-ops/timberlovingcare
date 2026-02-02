@@ -1,0 +1,15 @@
+{
+  "name": "timberlovingcare",
+  "version": "1.0.0",
+  "description": "Timber Loving Care website built with Hugo and Tailbliss",
+  "scripts": {
+    "dev": "hugo server -D",
+    "build": "hugo --minify"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.3.6"
+  }
+}

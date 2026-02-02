@@ -1,0 +1,40 @@
+<footer class="bg-gray-900 text-white mt-20">
+    <div class="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- About -->
+            <div>
+                <h3 class="text-xl font-heading font-bold mb-4">Timber<span class="text-amber-500">Loving</span>Care</h3>
+                <p class="text-gray-400">
+                    Professional timber and woodworking care services with attention to detail and quality craftsmanship.
+                </p>
+            </div>
+            
+            <!-- Quick Links -->
+            <div>
+                <h3 class="text-lg font-heading font-bold mb-4">Quick Links</h3>
+                <ul class="space-y-2">
+                    {{ range .Site.Menus.main }}
+                    <li>
+                        <a href="{{ .URL }}" class="text-gray-400 hover:text-white transition-colors duration-200">
+                            {{ .Name }}
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+            
+            <!-- Contact -->
+            <div>
+                <h3 class="text-lg font-heading font-bold mb-4">Contact</h3>
+                <ul class="space-y-2 text-gray-400">
+                    <li>Email: info@timberlovingcare.com</li>
+                    <li>Phone: (555) 123-4567</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+            <p>&copy; {{ now.Year }} Timber Loving Care. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
