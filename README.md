@@ -32,8 +32,8 @@ timberlovingcare/
 
 ## Prerequisites
 
-- [Hugo Extended](https://gohugo.io/installation/) (v0.112.0 or higher)
-- [Node.js](https://nodejs.org/) (v16 or higher)
+- [Hugo Extended](https://gohugo.io/installation/) (v0.112.0(?) or higher, working on v0.155.0)
+- [Node.js](https://nodejs.org/) (v16 or higher, currently on Debian 12, stock)
 - npm or yarn
 
 ## Setup
@@ -53,8 +53,6 @@ hugo server -D
 ## Build for Production
 
 ```zsh
-npm run build
-# or
 hugo --minify
 ```
 
