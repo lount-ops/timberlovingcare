@@ -5,4 +5,4 @@ draft: false
 type: "gallery"
 ---
 
-Explore our portfolio of completed timber care projects. Each piece tells a story of craftsmanship and attention to detail.
+Explore the different types of wood and the variety of shapes it comes in. From fine artist to finish carpenter, we've log decks and wood stacks to pick from.
