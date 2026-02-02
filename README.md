@@ -1,6 +1,6 @@
 # Timber Loving Care Website
 
-A Hugo website built with the Tailbliss theme for Timber Loving Care - professional timber and woodworking care services.
+A Hugo website built with the Tailbliss theme for Timber Loving Care - Professional tree and wildfire mitigation services.
 
 ## Project Structure
 
@@ -39,12 +39,12 @@ timberlovingcare/
 ## Setup
 
 1. Install Node dependencies:
-```bash
+```zsh
 npm install
 ```
 
 2. Run the development server:
-```bash
+```zsh
 npm run dev
 # or
 hugo server -D
@@ -54,7 +54,7 @@ hugo server -D
 
 ## Build for Production
 
-```bash
+```zsh
 npm run build
 # or
 hugo --minify
@@ -114,7 +114,7 @@ Replace placeholder images in the gallery by:
 ## Adding New Pages
 
 1. Create a new markdown file in `content/`:
-```bash
+```zsh
 hugo new about.md
 ```
 
@@ -124,9 +124,10 @@ hugo new about.md
 
 ## Support
 
-For Hugo documentation, visit: https://gohugo.io/documentation/
-For Tailwind CSS documentation, visit: https://tailwindcss.com/docs
+For Hugo documentation, visit: [GoHugo](https://gohugo.io/documentation/)
+For Tailwind CSS documentation, visit: [TailwindCSS](https://tailwindcss.com/docs)
 
 ## License
 
 MIT License - feel free to use and modify for your needs.
+2026 - The TimberLovingCare People.
