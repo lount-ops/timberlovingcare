@@ -1,0 +1,11 @@
+# Configure Cloudflare Worker
+
+name = 'timberlovingcare'
+compatibility_date = '2026-02-2'
+
+[build]
+command = 'hugo --gc --minify'
+
+[assets]
+directory = './public'
+not_found_handling = '404-page'
