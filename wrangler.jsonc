@@ -1,5 +1,5 @@
 {
 "name": "timberlovingcare",
 "compatibility_date": "2026-02-02",
-"main": "index.ts"
+"main": "./public"
 }
