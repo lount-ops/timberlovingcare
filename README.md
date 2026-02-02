@@ -33,7 +33,7 @@ timberlovingcare/
 ## Prerequisites
 
 - [Hugo Extended](https://gohugo.io/installation/) (v0.112.0(?) or higher, working on v0.155.0)
-- Hugo Apt repo; ``` deb [arch=amd64 signed-by=/etc/apt/keyrings/hugo.gpg] https://hugo-apt.8hob.io latest main ```
+- Hugo Apt repo; `deb [arch=amd64 signed-by=/etc/apt/keyrings/hugo.gpg] https://hugo-apt.8hob.io latest main`
 - [Node.js](https://nodejs.org/) (v16 or higher, currently on Debian 12, w/ node.js v18.20.4)
 - npm or yarn
 
