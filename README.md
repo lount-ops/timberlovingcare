@@ -45,8 +45,6 @@ npm install
 
 2. Run the development server:
 ```zsh
-npm run dev
-# or
 hugo server -D
 ```
 
