@@ -1,0 +1,8 @@
+name = "timberlovingcare"
+compatibility_date = "2026-03-08"
+
+[site]
+bucket = "./public"
+
+[build]
+command = "npm run build"
