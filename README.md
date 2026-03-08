@@ -1,6 +1,6 @@
 # Timber Loving Care Website
 
-A Hugo website built with the Tailbliss theme for Timber Loving Care - professional timber and woodworking care services.
+A Hugo website built with the Tailbliss theme for Timber Loving Care - professional timber people.
 
 ## Project Structure
 
