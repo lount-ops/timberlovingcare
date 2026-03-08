@@ -1,0 +1,12 @@
+name = "Tailbliss"
+license = "MIT"
+licenselink = "https://github.com/nusserstudios/tailbliss/blob/main/LICENSE"
+description = "A Hugo theme built with Tailwind CSS"
+homepage = "https://github.com/nusserstudios/tailbliss"
+tags = ["tailwind", "responsive", "blog"]
+features = ["responsive", "tailwind"]
+min_version = "0.112.0"
+
+[author]
+  name = "Nusser Studios"
+  homepage = "https://nusserstudios.com"

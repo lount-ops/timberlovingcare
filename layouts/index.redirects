@@ -1,0 +1,7 @@
+{{- range .Site.Pages -}}
+{{- with .Aliases -}}
+{{- range . }}
+{{ . }}  {{ $.Permalink }}  301
+{{ end -}}
+{{- end -}}
+{{- end -}}
