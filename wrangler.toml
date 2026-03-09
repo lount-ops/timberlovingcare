@@ -6,7 +6,7 @@ main = "worker.js"
 [assets]
 directory = "./public"
 not_found_handling = "404-page"
-run_worker_first = [ "/*", "!/public" ]
+run_worker_first = [ "!/public" ]
 
 [build]
 command = "npm run build"
