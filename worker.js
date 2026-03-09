@@ -1,5 +1,9 @@
 export default {
-  async fetch(request, env) {
-    return env.ASSETS.fetch(request);
+  async fetch(request, env, ctx) {
+    try {
+      return await env.ASSETS.fetch(request);
+    } catch (e) {
+      return new Response("Not found", { status: 404 });
+    }
   }
 };
